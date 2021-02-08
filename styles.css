@@ -3,6 +3,11 @@ body {
   color: wheat;
 }
 
+section {
+    background-color: rgba(255, 255, 255, .4)
+
+}
+
 .top-msg {
   opacity: 0.4;
 }
