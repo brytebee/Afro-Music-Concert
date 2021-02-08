@@ -1,10 +1,18 @@
 body {
-    background-color: lightgrey;
+  background-image: url("https://mdbootstrap.com/img/new/slides/041.jpg");
+  color: wheat;
 }
 
+.top-msg {
+  opacity: 0.4;
+}
 
-@media (min-width:786px){
-    body {
-        background-color: yellowgreen;
-    }
+@media (min-width: 786px) {
+  body {
+    background-color: yellowgreen;
+  }
+}
+
+.btn {
+  border-radius: 8px;
 }
