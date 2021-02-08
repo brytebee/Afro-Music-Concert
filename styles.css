@@ -1,0 +1,10 @@
+body {
+    background-color: lightgrey;
+}
+
+
+@media (min-width:786px){
+    body {
+        background-color: yellowgreen;
+    }
+}
