@@ -33,7 +33,12 @@
 }
 
 body {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgb(255, 255, 255)), url("./assets/arts-and-culture.jpg");
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.6),
+      rgb(255, 255, 255)
+    ),
+    url("./assets/arts-and-culture.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Lato", sans-serif;
