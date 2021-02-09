@@ -33,7 +33,8 @@
 }
 
 body {
-  background: linear-gradient(
+  background: 
+    linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.6),
       rgb(255, 255, 255)
@@ -83,8 +84,8 @@ body {
 .envelope-border {
   padding: 6px;
   border: 6px solid transparent;
-  border-image: 4
-    repeating-linear-gradient(
+  border-image:
+    4 repeating-linear-gradient(
       -45deg,
       #ec5242 0,
       #ec5242 1em,
