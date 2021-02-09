@@ -1,22 +1,106 @@
+/* Colors */
+.text-orange {
+  color: #ec5242;
+}
+
+.text-black {
+  color: #272a31;
+}
+
+.text-offwhite {
+  color: #d3d3d3;
+}
+
+/* Background Colors */
+.bg-orange {
+  background-color: #ec5242;
+}
+
+.bg-black {
+  background-color: #272a31;
+}
+
+.bg-white {
+  background-color: rgb(88, 71, 71);
+}
+
+.bg-light {
+  opacity: 0.75;
+}
+
+.border {
+  border-radius: 12px;
+}
+
 body {
-  background-image: url("https://mdbootstrap.com/img/new/slides/041.jpg");
-  color: wheat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6), rgb(255, 255, 255)), url("./assets/arts-and-culture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  color: black;
 }
 
-section {
-  background-color: rgba(255, 255, 255, 0.4);
+.coco {
+  font-family: "COCOGOOSE";
 }
 
-.top-msg {
-  opacity: 0.4;
+.blink_text {
+  animation: blinker 2s linear infinite;
+  font-size: 1.1rem;
 }
 
-@media (min-width: 786px) {
-  body {
-    background-color: yellowgreen;
+@keyframes blinker {
+  50% {
+    opacity: 0;
   }
 }
 
 .btn {
   border-radius: 8px;
+}
+
+.text-shadows {
+  text-shadow: 1px 1px 1px gold;
+}
+
+.line-height-0 {
+  line-height: 1;
+}
+
+/* .trans-header {
+  background-image: linear-gradient(to right, #ec5242ba, #ec5242ba),
+    url("https://images.pexels.com/photos/1313814/pexels-photo-1313814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: #ec5242;
+} */
+
+.envelope-border {
+  padding: 6px;
+  border: 6px solid transparent;
+  border-image: 4
+    repeating-linear-gradient(
+      -45deg,
+      #ec5242 0,
+      #ec5242 1em,
+      transparent 0,
+      transparent 2em,
+      #272a31 0,
+      #272a31 3em,
+      transparent 0,
+      transparent 4em
+    );
+}
+
+.agenda,
+.sponsors {
+  margin: 6rem 0;
+  padding: 4rem 2rem;
+  color: white;
+}
+
+@media (min-width: 786px) {
+  .blink_text_desktop {
+    animation: blinker 2s linear infinite;
+  }
 }
