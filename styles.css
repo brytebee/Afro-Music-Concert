@@ -33,7 +33,7 @@
 }
 
 body {
-  background: 
+  background:
     linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.6),
@@ -47,7 +47,7 @@ body {
 }
 
 .coco {
-  font-family: "COCOGOOSE";
+  font-family: "COCOGOOSE", sans-serif;
 }
 
 .blink_text {
