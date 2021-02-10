@@ -29,18 +29,20 @@
 
 <body>
     <!-- The Header -->
-    <header class="">
+    <header class="bg-black text-light">
         <!-- Top Desktop Nav -->
         <nav class="navbar d-none d-md-block">
-            <i class="fab fa-facebook-f font-awesome"></i>
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter font-awesome"></i>
-            <i class="fab fa-youtube font-awesome"></i>
-            <i class="fab fa-instagram font-awesome"></i>
+            <div class="top-nav">
+                <i class="fab p-2 fa-facebook-f font-awesome"></i>
+                <i class="fab p-2 fa-facebook-square"></i>
+                <i class="fab p-2 fa-twitter font-awesome"></i>
+                <i class="fab p-2 fa-youtube font-awesome"></i>
+                <i class="fab p-2 fa-instagram font-awesome"></i>
+            </div>
         </nav>
         <!-- Main Nav -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid second-nav">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -48,8 +50,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <a class="text-decoration-none" href="./index.html">
-                        <figure class="row  pt-3 mb-0 align-items-center">
-                            <img class="img-fluid w-25 col-4" src="assets/logo-nobg.png" alt="afro-music-logo">
+                        <figure class="row pb-lg-3 pt-3 mb-0 align-items-center">
+                            <img class="img-fluid nav-logo col-4" src="assets/logo-nobg.png" alt="afro-music-logo">
                             <figcaption class="col-8 w-50 line-height-0">
                                 <div class="fw-bold">Afro Music Culture</div>
                                 <div class="text-shadows">Concert 2021</div>
@@ -131,18 +133,19 @@
     </section>
     <!-- Footer -->
     <footer class="container-fluid">
-        <div class="row">
-            <hr class="hr-light">
+        <hr class="hr-light">
+        <div class="row py-3 desktop-footer">
             <div class="footer-logo col-6 text-center">
-                <img class="img-fluid w-50" src="assets/logo-nobg.png" alt="">
+                <img class="img-fluid w-50 footer-logo" src="assets/logo-nobg.png" alt="">
                 <h6>Afro Music Culture 2021</h6>
             </div>
-            <div class="copyright col-6">The Federal Ministry of Arts & Culture, Nigeria.
+            <div class="copyright col-6 pb-4">The Federal Ministry of Arts & Culture, Nigeria.
                 <br> All right reserved! <br> Built with love by <a href="linkedin.com/in/brytebee">Atsighi Bright</a>
             </div>
-            <hr class="hr-light">
         </div>
+        <hr class="hr-light">
     </footer>
+
 
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
