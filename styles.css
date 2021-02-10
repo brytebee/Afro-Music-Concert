@@ -38,8 +38,8 @@ body {
   background:
     linear-gradient(
       to bottom,
-    rgba(255, 255, 255, 0.3),
-    rgb(255, 255, 255)
+     rgba(255, 255, 255, 0.3),
+     rgb(255, 255, 255)
     ),
     url("./assets/arts-and-culture.jpg");
   background-size: cover;
