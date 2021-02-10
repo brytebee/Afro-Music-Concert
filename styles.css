@@ -34,9 +34,11 @@
 
 body {
   background:
-    linear-gradient(to bottom,
-      rgba(255, 255, 255, 0.3),
-      rgb(255, 255, 255)),
+    linear-gradient(
+     to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgb(255, 255, 255)
+    ),
     url("./assets/arts-and-culture.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -55,14 +57,21 @@ body {
 .bg-light-pattern {
   background-color: #292729;
   background-image:
-    radial-gradient(#282831 1px,
-      #7c7c85 1px);
+    radial-gradient(
+      #282831 1px,
+      #7c7c85 1px
+    );
   background-size: 20px 20px;
   opacity: 0.7;
 }
 
 .past-year-2019 {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255)),
+  background:
+  linear-gradient(
+    to bottom, 
+    rgba(255, 255, 255, 0), 
+    rgb(255, 255, 255)
+    ),
     url("./assets/past-year-2019.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -71,7 +80,11 @@ body {
 }
 
 .past-year-2018 {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255)),
+  background: linear-gradient(
+    to bottom, 
+    rgba(255, 255, 255, 0), 
+    rgb(255, 255, 255)
+    ),
     url("./assets/past-year-2018.jpe");
   background-size: cover;
   background-repeat: no-repeat;
@@ -116,7 +129,8 @@ body {
 }
 
 .trans-header {
-  background-image: url("https://images.pexels.com/photos/1313814/pexels-photo-1313814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image:
+    url("https://images.pexels.com/photos/1313814/pexels-photo-1313814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -131,7 +145,8 @@ body {
   padding: 6px;
   border: 6px solid transparent;
   border-image:
-    4 repeating-linear-gradient(-45deg, #ec5242 0, #ec5242 1em, transparent 0, transparent 2em,
+    4 repeating-linear-gradient(
+      -45deg, #ec5242 0, #ec5242 1em, transparent 0, transparent 2em,
       #272a31 0, #272a31 3em, transparent 0, transparent 4em);
 }
 
