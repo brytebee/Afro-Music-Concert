@@ -135,60 +135,60 @@ body {
   .top-nav {
     padding-left: 80%;
   }
-  
+
   .second-nav {
     height: 50px;
   }
-  
+
   .nav-logo {
     width: 11%;
   }
-  
+
   .big-text {
     font-size: 60px;
   }
-  
+
   .blink_text_desktop {
     animation: blinker 2s linear infinite;
   }
-  
+
   .margin-p {
     margin: 3% 20%;
   }
-  
+
   .wide {
     margin: -12px;
     padding: 5% 35%;
   }
-  
+
   .agenda-grid {
     display: grid;
     grid: 1fr / repeat(6, 1fr);
   }
-  
+
   .desktop-agenda {
     height: 250px;
     padding: -1rem;
     margin: 0 0.3rem;
   }
-  
+
   .desktop-featured-artist {
     margin: 15%;
   }
-  
+
   .align-seat {
     margin: 0 42%;
   }
-  
+
   .desktop-footer {
     margin: 0 0 0 25%;
     text-align: center;
   }
-  
+
   .footer-logo {
     width: 15%;
   }
-  
+
   .w-100 {
     width: 20% !important;
   }
