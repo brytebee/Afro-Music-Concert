@@ -35,11 +35,12 @@
 }
 
 body {
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.3),
-      rgb(255, 255, 255)
-    ),
+  background: 
+   linear-gradient(
+   to bottom,
+ rgba(255, 255, 255, 0.3),
+ rgb(255, 255, 255)
+   ),
     url("./assets/arts-and-culture.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -100,7 +101,6 @@ body {
   -webkit-text-fill-color: transparent;
   margin-top: 200px;
   text-align: center;
-  font-weight: bold;
   text-transform: uppercase;
   font-weight: 800;
   -webkit-font-smoothing: antialiased;
@@ -109,8 +109,8 @@ body {
 .envelope-border {
   padding: 6px;
   border: 6px solid transparent;
-  border-image: 4
-    repeating-linear-gradient(
+  border-image:
+   4 repeating-linear-gradient(
       -45deg,
       #ec5242 0,
       #ec5242 1em,
