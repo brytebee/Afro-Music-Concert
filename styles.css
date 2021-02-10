@@ -190,6 +190,10 @@ body {
     margin: 3% 20%;
   }
 
+  .quote {
+    margin: 0 50% 0 15%;
+  }
+
   .wide {
     margin: -12px;
     padding: 3% 35%;
