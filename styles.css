@@ -37,9 +37,9 @@
 body {
   background:
     linear-gradient(
-    to bottom,
-  rgba(255, 255, 255, 0.3),
-  rgb(255, 255, 255)
+      to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgb(255, 255, 255)
     ),
     url("./assets/arts-and-culture.jpg");
   background-size: cover;
@@ -110,7 +110,7 @@ body {
   padding: 6px;
   border: 6px solid transparent;
   border-image:
-      4 repeating-linear-gradient(
+    4 repeating-linear-gradient(
       -45deg,
       #ec5242 0,
       #ec5242 1em,
@@ -158,7 +158,7 @@ body {
 
   .wide {
     margin: -12px;
-    padding: 5% 35%;
+    padding: 3% 35%;
   }
 
   .agenda-grid {
