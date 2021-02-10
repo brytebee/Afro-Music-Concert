@@ -35,8 +35,7 @@
 }
 
 body {
-  background:
-    linear-gradient(
+  background: linear-gradient(
       to bottom,
       rgba(255, 255, 255, 0.3),
       rgb(255, 255, 255)
@@ -63,33 +62,30 @@ body {
   opacity: 0.7;
 }
 
-
 .past-year-2019 {
-    background:
-      linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0),
-        rgb(255, 255, 255)
-      ),
-      url("./assets/past-year-2019.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: "Lato", sans-serif;
-    color: rgb(58, 29, 29);
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(255, 255, 255)
+    ),
+    url("./assets/past-year-2019.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  color: rgb(58, 29, 29);
 }
 
 .past-year-2018 {
-    background:
-      linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0),
-        rgb(255, 255, 255)
-      ),
-      url("./assets/past-year-2018.jpe");
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: "Lato", sans-serif;
-    color: rgb(58, 29, 29);
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(255, 255, 255)
+    ),
+    url("./assets/past-year-2018.jpe");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  color: rgb(58, 29, 29);
 }
 
 .coco {
@@ -108,8 +104,8 @@ body {
 }
 
 .hr-width {
-    width: 10%;
-    margin: 2px 0;
+  width: 10%;
+  margin: 2px 0;
 }
 
 .btn {
@@ -143,8 +139,8 @@ body {
 .envelope-border {
   padding: 6px;
   border: 6px solid transparent;
-  border-image:
-    4 repeating-linear-gradient(
+  border-image: 4
+    repeating-linear-gradient(
       -45deg,
       #ec5242 0,
       #ec5242 1em,
