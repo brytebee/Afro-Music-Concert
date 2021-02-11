@@ -217,13 +217,13 @@ body {
   .bg-black {
     background-color: #272a31;
   }
-  
-  .text-offwhite {
-    color: #d3d3d3;
-  }
 
   .footer-logo {
     width: 15%;
+  }
+  
+  .text-offwhite {
+    color: #d3d3d3;
   }
 
   .w-100 {
