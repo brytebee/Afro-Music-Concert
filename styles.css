@@ -217,13 +217,7 @@ body {
     margin: 0 0 0 25%;
     text-align: center;
   }
-
-  /* The bg-offwhite displays black on desktop */
-  .bg-offwhite {
-    background-color: #272a31;
-  }
-
-  /* Display almost white text for the dark background above */
+  
   .text-offwhite {
     color: #d3d3d3;
   }
