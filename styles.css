@@ -144,7 +144,8 @@ body {
   border: 6px solid transparent;
   border-image:
     4 repeating-linear-gradient(
-      -45deg, #ec5242 0,
+      -45deg,
+      #ec5242 0,
       #ec5242 1em,
       transparent 0,
       transparent 2em,
