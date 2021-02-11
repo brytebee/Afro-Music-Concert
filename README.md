@@ -3,7 +3,7 @@
 
 ## Capstone Project: Afro Music Culture
 
-> This project is a suppose conference page for the Afro Music Culture(Imaginary). It consiste of three pages and is responsive to mobile and desktop screens.
+> This project is a supposed conference page for the Afro Music Culture(Imaginary). It consists of three pages and is responsive to mobile and desktop screens.
 
 ![screenshot](/assets/mobile-screen.png)
 
