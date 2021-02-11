@@ -1,56 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Bootstrap CSS -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <title>Afro Music Concert</title>
-</head>
-<body>
-    <header class="">
-        <nav class="navbar d-none d-md-block">
-            <i class="fab fa-facebook-f font-awesome"></i>
-		    <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter font-awesome"></i>
-            <i class="fab fa-youtube font-awesome"></i>
-            <i class="fab fa-instagram font-awesome"></i>
-        </nav>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse bg-light" id="navbarSupportedContent">
-                <figure class="d-flex">
-                    <a href="./index.html">
-                        <img class="w-25 pt-3" src="assets/logo-nobg.png" alt="afro-music-logo">
-                        <figcaption>The Afro League</figcaption>
-                    </a>
-                </figure>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link text-danger active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-danger" href="#">Book Seat</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-        
-    </header>
 
-     <!-- Bootstrap Bundle with Popper -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+  <!-- Local stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Fontawesome link -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- Cocogoose font -->
+  <link href="//db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE" rel="stylesheet"
+    type="text/css" />
+
+  <!-- Google Lato font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  <title>Afro Music Concert</title>
+</head>
+
+<body class="text-black">
+  <!-- The Header -->
+  <header class="bg-black text-light">
+    <!-- Top Desktop Nav -->
+    <nav class="navbar d-none d-md-block">
+      <div class="top-nav">
+        <i class="fab p-2 fa-facebook-f font-awesome"></i>
+        <i class="fab p-2 fa-facebook-square"></i>
+        <i class="fab p-2 fa-twitter font-awesome"></i>
+        <i class="fab p-2 fa-youtube font-awesome"></i>
+        <i class="fab p-2 fa-instagram font-awesome"></i>
+      </div>
+    </nav>
+    <!-- Main Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid second-nav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <a class="text-decoration-none" href="./index.html">
+            <figure class="row pb-lg-3 pt-3 mb-0 align-items-center">
+              <img class="img-fluid nav-logo col-4" src="assets/logo-nobg.png" alt="afro-music-logo">
+              <figcaption class="col-8 w-50 line-height-0">
+                <div class="fw-bold">Afro Music Culture</div>
+                <div class="text-shadows">Concert 2021</div>
+              </figcaption>
+            </figure>
+          </a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-danger active" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./booking.html">Bookings</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="container-fluid main-page">
+    <div class="pt-3 mb-5">
+      <h3 class="d-lg-none blink_text text-orange">It's another Afro cultural season!!!</h3>
+      <h1 class="trans-header blink_text_desktop text-orange coco mt-3 big-text">Ignite the African Bond, Ignite the
+        African
+        Culture!</h1>
+    </div>
+    <div class="quote border border-dark bg-light p-2">
+      <h6 class="fw-bold">If you want to destroy a people, destroy their memory, destroy their history.</h6>
+      <p><i>~<strong>Desmond Tutu</strong></i></p>
+    </div>
+    <h5 class="quote date mt-5 coco">2021.08.27(FRI) - 29(SUN)</h5>
+    <p class="quote line-height-0">@ECO Hotels & Suites, Lagos Island</p>
+    <section class="agenda dark-sessions">
+      <h2 class="text-orange text-center ps-4 fs-lg-1">Daily Agenda</h2>
+      <hr class="bg-orange">
+      <div class="agenda-grid">
+        <div class="row my-4 py-3 bg-light-pattern text-lg-center desktop-agenda">
+          <div class="d-flex d-lg-block justify-content-between col-5 col-lg-12">
+            <i class="fas fa-chalkboard-teacher fa-2x py-lg-3"></i>
+            <h6 class="text-orange fw-bold">Lecture</h6>
+          </div>
+          <div class="agenda-description col-7 col-lg-12">Brainstorming on the <strong>AFRICAN PEOPLE</strong> and her
+            rich
+            <strong>CULTURAL HERITAGE.</strong></div>
+        </div>
+        <div class="row my-4 py-3 bg-light-pattern text-lg-center desktop-agenda">
+          <div class="d-flex d-lg-block justify-content-between col-5 col-lg-12">
+            <i class="fas fa-guitar fa-2x py-lg-3"></i>
+            <h6 class="text-orange fw-bold">Music</h6>
+          </div>
+          <div class="agenda-description col-7 col-lg-12">Withness the best of <strong>AFRICAN ARTISTS</strong> showcase
+            their
+            <strong>CULTURAL ENDOWMENT</strong> in <i>style</i> and <i>swag$$.</i></div>
+        </div>
+        <div class="row mt-4 py-3 bg-light-pattern text-lg-center desktop-agenda">
+          <div class="d-flex d-lg-block justify-content-between col-5 col-lg-12">
+            <i class="fas fa-user-friends fa-2x py-lg-3"></i>
+            <h6 class="text-orange fw-bold">Network</h6>
+          </div>
+          <div class="agenda-description col-7 col-lg-12">Make new <strong>FRIENDS</strong> and interact. Establish
+            <strong>CROSS-CULTURAL CURTESIES.</strong></div>
+        </div>
+        <div class="row my-4 py-3 bg-light-pattern text-lg-center desktop-agenda">
+          <div class="d-flex d-lg-block justify-content-between col-5 col-lg-12">
+            <i class="fas fa-chalkboard-teacher fa-2x py-lg-3"></i>
+            <h6 class="text-orange fw-bold">Lecture</h6>
+          </div>
+          <div class="agenda-description col-7 col-lg-12">Brainstorming on the <strong>AFRICAN PEOPLE</strong> and her
+            rich
+            <strong>CULTURAL HERITAGE.</strong></div>
+        </div>
+        <div class="row my-4 py-3 bg-light-pattern text-lg-center desktop-agenda">
+          <div class="d-flex d-lg-block justify-content-between col-5 col-lg-12">
+            <i class="fas fa-guitar fa-2x py-lg-3"></i>
+            <h6 class="text-orange fw-bold">Music</h6>
+          </div>
+          <div class="agenda-description col-7 col-lg-12">Withness the best of <strong>AFRICAN ARTISTS</strong> showcase
+            their
+            <strong>CULTURAL ENDOWMENT</strong> in <i>style</i> and <i>swag$$.</i></div>
+        </div>
+        <div class="row mt-4 py-3 bg-light-pattern text-lg-center desktop-agenda">
+          <div class="d-flex d-lg-block justify-content-between col-5 col-lg-12">
+            <i class="fas fa-user-friends fa-2x py-lg-3"></i>
+            <h6 class="text-orange fw-bold">Network</h6>
+          </div>
+          <div class="agenda-description col-7 col-lg-12">Make new <strong>FRIENDS</strong> and interact. Establish
+            <strong>CROSS-CULTURAL CURTESIES.</strong></div>
+        </div>
+      </div>
+      <div class="text-center pt-5">
+        <button type="submit" class="btn bg-orange text-white fw-bold">Save Seat Now</button>
+      </div>
+    </section>
+    <section class="featured-artist row desktop-featured-artist">
+      <h2 class="text-center fs-lg-1">Featured Artists</h2>
+      <hr class="bg-black">
+      <div class="row pt-2 col-lg-6">
+        <div class="d-flex justify-content-between col-4">
+          <img class="img-thumbnail" src="assets/davido-afro.jpg" alt="davido-obiyo">
+        </div>
+        <div class="agenda-description col-8">
+          <strong class="text-orange">DAVIDO</strong> <br>
+          <hr class="text-orange hr-width">
+          One of the biggest and most influential artist in Africa.
+        </div>
+      </div>
+      <div class="row pt-4 col-lg-6">
+        <div class="d-flex justify-content-between col-4">
+          <img class="img-thumbnail" src="assets/tiwa.jpg" alt="tiwa-savage">
+        </div>
+        <div class="agenda-description col-8">
+          <strong class="text-orange">TIWA SAVAGE</strong> <br>
+          <hr class="text-orange hr-width">
+          One of the biggest and most influential artist in Africa.
+        </div>
+      </div>
+      <div class="row pt-4 col-lg-6">
+        <div class="d-flex justify-content-between col-4">
+          <img class="img-thumbnail" src="assets/sakordie.jpg" alt="sakordie-gh">
+        </div>
+        <div class="agenda-description col-8">
+          <strong class="text-orange">SARKODIE</strong> <br>
+          <hr class="text-orange hr-width">
+          One of the biggest and most influential artist in Africa.
+        </div>
+      </div>
+      <div class="row pt-4 col-lg-6">
+        <div class="d-flex justify-content-between col-4">
+          <img class="img-thumbnail" src="assets/yemi-a.jpg" alt="yemi-alade">
+        </div>
+        <div class="agenda-description col-8">
+          <strong class="text-orange">YEMI ALADE</strong> <br>
+          <hr class="text-orange hr-width">
+          One of the biggest and most influential artist in Africa.
+        </div>
+      </div>
+      <div class="row pt-4 col-lg-6">
+        <div class="d-flex justify-content-between col-4">
+          <img class="img-thumbnail" src="assets/wizkid-1.jpg" alt="wizkid">
+        </div>
+        <div class="agenda-description col-8">
+          <strong class="text-orange">WIZKID</strong> <br>
+          <hr class="text-orange hr-width">
+          One of the biggest and most influential artist in Africa.
+        </div>
+      </div>
+      <div class="row pt-4 col-lg-6">
+        <div class="d-flex justify-content-between col-4">
+          <img class="img-thumbnail" src="assets/mr-eazi.jpg" alt="mr-eazi">
+        </div>
+        <div class="agenda-description col-8">
+          <strong class="text-orange">MR EAZI</strong> <br>
+          <hr class="text-orange hr-width">
+          One of the biggest and most influential artist in Africa.
+        </div>
+      </div>
+      <div class="row py-4 col-lg-6">
+        <div class="d-flex justify-content-between col-4">
+          <img class="img-thumbnail" src="assets/borna-boi.png" alt="borna-boy">
+        </div>
+        <div class="agenda-description col-8">
+          <strong class="text-orange">BURNA BOY</strong> <br>
+          <hr class="text-orange hr-width">
+          One of the biggest and most influential artist in Africa.
+        </div>
+      </div>
+      <div class="row py-4 col-lg-6">
+        <div class="d-flex justify-content-between col-4">
+          <img class="img-thumbnail" src="assets/olamide.jpg" alt="olamide-bado">
+        </div>
+        <div class="agenda-description col-8">
+          <strong class="text-orange">OLAMIDE</strong> <br>
+          <hr class="text-orange hr-width">
+          One of the biggest and most influential artist in Africa.
+        </div>
+      </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-outline-secondary text-black fw-bold w-100">MORE <i
+            class="fas fa-angle-down ps-2"></i></button>
+      </div>
+    </section>
+    <!-- Sponsors -->
+    <section class="sponsors dark-sessions">
+      <h2 class="text-danger text-center">Sponsors</h2>
+      <hr class="bg-light">
+      <div class="text-center row">
+        <h6 class="col-lg-3">Airbnb</h6>
+        <h6 class="col-lg-3">Dangote and Group</h6>
+        <h6 class="col-lg-3">Federal ministry of arts and culture</h6>
+        <h6 class="col-lg-3">Federal ministry of youth and employment</h6>
+      </div>
+    </section>
+  </section>
+  <!-- Footer -->
+  <footer class="container-fluid bg-black text-offwhite">
+    <hr class="hr-light">
+    <div class="row py-3 desktop-footer">
+        <div class="footer-logo col-6 text-center">
+            <img class="img-fluid w-50 footer-logo" src="assets/logo-nobg.png" alt="">
+            <h6>Afro Music Culture 2021</h6>
+        </div>
+        <div class="copyright col-6 pb-4">The Federal Ministry of Arts & Culture, Nigeria.
+            <br> All right reserved! <br> Built with love by <a class="text-decoration-none text-offwhite" href="linkedin.com/in/brytebee">Atsighi Bright</a>
+        </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>

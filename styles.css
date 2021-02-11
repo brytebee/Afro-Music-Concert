@@ -1,10 +1,232 @@
-body {
-    background-color: lightgrey;
+/* Colors */
+
+.text-orange {
+  color: #ec5242;
 }
 
+.text-black {
+  color: #272a31;
+}
 
-@media (min-width:786px){
-    body {
-        background-color: yellowgreen;
-    }
+/* Background Colors */
+
+.bg-orange {
+  background-color: #ec5242;
+}
+
+.bg-offwhite {
+  background-color: #d3d3d3;
+}
+
+.bg-light {
+  opacity: 0.75;
+}
+
+.border {
+  border-radius: 5px;
+}
+
+body {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.3),
+      rgb(255, 255, 255)
+    ),
+    url("./assets/arts-and-culture.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  color: #000;
+}
+
+.dark-sessions {
+  background-color: #242830;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' %3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(53,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23000000'/%3E%3Cstop offset='1' stop-color='%23000000'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpattern id='b' width='19' height='19' patternUnits='userSpaceOnUse'%3E%3Ccircle fill='%23242830' cx='9.5' cy='9.5' r='9.5'/%3E%3C/pattern%3E%3Crect width='100%25' height='100%25' fill='url(%23a)'/%3E%3Crect width='100%25' height='100%25' fill='url(%23b)' fill-opacity='0.67'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 150px;
+}
+
+.bg-light-pattern {
+  background-color: #292729;
+  background-image: radial-gradient(#282831 1px, #7c7c85 1px);
+  background-size: 20px 20px;
+  opacity: 0.7;
+}
+
+.past-year-2019 {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(255, 255, 255)
+    ),
+    url("./assets/past-year-2019.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  color: rgb(58, 29, 29);
+}
+
+.past-year-2018 {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0),
+      rgb(255, 255, 255)
+    ),
+    url("./assets/past-year-2018.jpe");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  color: rgb(58, 29, 29);
+}
+
+.coco {
+  font-family: "COCOGOOSE", sans-serif;
+}
+
+.blink_text {
+  animation: blinker 5s linear infinite;
+  font-size: 1.1rem;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.hr-width {
+  width: 10%;
+  margin: 2px 0;
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+.text-shadows {
+  text-shadow: 1px 1px 1px gold;
+}
+
+.line-height-0 {
+  line-height: 1;
+}
+
+.big-text {
+  font-size: 20px;
+}
+
+.trans-header {
+  background-image: url("https://images.pexels.com/photos/1313814/pexels-photo-1313814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+}
+
+.envelope-border {
+  padding: 6px;
+  border: 6px solid transparent;
+  border-image:
+    4 repeating-linear-gradient(
+      -45deg,
+      #ec5242 0,
+      #ec5242 1em,
+      transparent 0,
+      transparent 2em,
+      #272a31 0,
+      #272a31 3em,
+      transparent 0,
+      transparent 4em
+    );
+}
+
+.agenda,
+.sponsors {
+  margin: 6rem 0;
+  padding: 4rem 2rem;
+  color: white;
+  font-size: 12px;
+}
+
+@media (min-width: 786px) {
+  .top-nav {
+    padding-left: 80%;
+  }
+
+  .second-nav {
+    height: 50px;
+  }
+
+  .nav-logo {
+    width: 11%;
+  }
+
+  .big-text {
+    font-size: 60px;
+  }
+
+  .blink_text_desktop {
+    animation: blinker 2s linear infinite;
+  }
+
+  .margin-p {
+    margin: 3% 20%;
+  }
+
+  .quote {
+    margin: 0 50% 0 15%;
+  }
+
+  .wide {
+    margin: -12px;
+    padding: 3% 30%;
+  }
+
+  .agenda-grid {
+    display: grid;
+    grid: 1fr / repeat(6, 1fr);
+  }
+
+  .desktop-agenda {
+    height: 250px;
+    padding: -1rem;
+    margin: 0 0.3rem;
+  }
+
+  .desktop-featured-artist {
+    margin: 15%;
+  }
+
+  .align-seat {
+    margin: 0 42%;
+  }
+
+  .desktop-footer {
+    margin: 0 0 0 25%;
+    text-align: center;
+  }
+
+  .bg-black {
+    background-color: #272a31;
+  }
+
+  .footer-logo {
+    width: 15%;
+  }
+
+  .text-offwhite {
+    color: #d3d3d3;
+  }
+
+  .w-100 {
+    width: 20% !important;
+  }
 }
