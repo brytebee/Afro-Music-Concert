@@ -35,11 +35,12 @@
 }
 
 body {
-  background: linear-gradient(
+  background:
+  linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0.3),
     rgb(255, 255, 255)
-    ),
+  ),
     url("./assets/arts-and-culture.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,11 +64,12 @@ body {
 }
 
 .past-year-2019 {
-  background: linear-gradient(
+  background:
+  linear-gradient(
     to bottom, 
     rgba(255, 255, 255, 0),
     rgb(255, 255, 255)
-    ),
+  ),
     url("./assets/past-year-2019.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -76,11 +78,12 @@ body {
 }
 
 .past-year-2018 {
-  background: linear-gradient(
+  background:
+  linear-gradient(
     to bottom,
     rgba(255, 255, 255, 0),
     rgb(255, 255, 255)
-    ),
+  ),
     url("./assets/past-year-2018.jpe");
   background-size: cover;
   background-repeat: no-repeat;
@@ -139,7 +142,8 @@ body {
 .envelope-border {
   padding: 6px;
   border: 6px solid transparent;
-  border-image: 4 repeating-linear-gradient(
+  border-image:
+  4 repeating-linear-gradient(
     -45deg, #ec5242 0,
     #ec5242 1em,
     transparent 0,
@@ -148,7 +152,7 @@ body {
     #272a31 3em,
     transparent 0,
     transparent 4em
-    );
+  );
 }
 
 .agenda,
