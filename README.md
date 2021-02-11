@@ -1,11 +1,11 @@
-# Newsweek-Clone
-![](https://github.com/CollinsTatang/Newsweek-Clone.git)
+# The Conference Page
+![](https://github.com/brytebee/Afro-Music-Concert)
 
-## Project3: Newsweek Clone
+## Capstone Project: Afro Music Culture
 
-> Newsweek article Project
+> This project is a suppose conference page for the Afro Music Culture(Imaginary). It consiste of three pages and is responsive to mobile and desktop screens.
 
-![screenshot](assets/Screenshot.PNG)
+![screenshot](/assets/mobile-screen.png)
 
 This project features HTML5 semantic tags, CSS and Bootstrap.
 
