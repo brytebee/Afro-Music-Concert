@@ -1,4 +1,5 @@
 /* Colors */
+
 .text-orange {
   color: #ec5242;
 }
@@ -12,6 +13,7 @@
 }
 
 /* Background Colors */
+
 .bg-orange {
   background-color: #ec5242;
 }
@@ -33,12 +35,7 @@
 }
 
 body {
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0.3),
-      rgb(255, 255, 255)
-    ),
-    url("./assets/arts-and-culture.jpg");
+  background: linear-gradient( to bottom, rgba(255, 255, 255, 0.3), rgb(255, 255, 255)), url("./assets/arts-and-culture.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Lato", sans-serif;
@@ -61,12 +58,7 @@ body {
 }
 
 .past-year-2019 {
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0),
-      rgb(255, 255, 255)
-    ),
-    url("./assets/past-year-2019.jpg");
+  background: linear-gradient( to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255)), url("./assets/past-year-2019.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Lato", sans-serif;
@@ -74,12 +66,7 @@ body {
 }
 
 .past-year-2018 {
-  background: linear-gradient(
-      to bottom,
-      rgba(255, 255, 255, 0),
-      rgb(255, 255, 255)
-    ),
-    url("./assets/past-year-2018.jpe");
+  background: linear-gradient( to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255)), url("./assets/past-year-2018.jpe");
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Lato", sans-serif;
@@ -137,22 +124,10 @@ body {
 .envelope-border {
   padding: 6px;
   border: 6px solid transparent;
-  border-image: 4
-    repeating-linear-gradient(
-      -45deg,
-      #ec5242 0,
-      #ec5242 1em,
-      transparent 0,
-      transparent 2em,
-      #272a31 0,
-      #272a31 3em,
-      transparent 0,
-      transparent 4em
-    );
+  border-image: 4 repeating-linear-gradient( -45deg, #ec5242 0, #ec5242 1em, transparent 0, transparent 2em, #272a31 0, #272a31 3em, transparent 0, transparent 4em);
 }
 
-.agenda,
-.sponsors {
+.agenda, .sponsors {
   margin: 6rem 0;
   padding: 4rem 2rem;
   color: white;
@@ -163,64 +138,50 @@ body {
   .top-nav {
     padding-left: 80%;
   }
-
   .second-nav {
     height: 50px;
   }
-
   .nav-logo {
     width: 11%;
   }
-
   .big-text {
     font-size: 60px;
   }
-
   .blink_text_desktop {
     animation: blinker 2s linear infinite;
   }
-
   .margin-p {
     margin: 3% 20%;
   }
-
   .quote {
     margin: 0 50% 0 15%;
   }
-
   .wide {
     margin: -12px;
     padding: 3% 35%;
   }
-
   .agenda-grid {
     display: grid;
     grid: 1fr / repeat(6, 1fr);
   }
-
   .desktop-agenda {
     height: 250px;
     padding: -1rem;
     margin: 0 0.3rem;
   }
-
   .desktop-featured-artist {
     margin: 15%;
   }
-
   .align-seat {
     margin: 0 42%;
   }
-
   .desktop-footer {
     margin: 0 0 0 25%;
     text-align: center;
   }
-
   .footer-logo {
     width: 15%;
   }
-
   .w-100 {
     width: 20% !important;
   }
